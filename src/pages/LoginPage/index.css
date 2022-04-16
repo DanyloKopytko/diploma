@@ -1,0 +1,100 @@
+.div-login-main {
+    width: 40vw;
+    height: 40vh;
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15vh 0 0 30vw;
+}
+
+
+.div-login-main::before {
+    z-index: -1;
+    content: '';
+    filter: blur(1px);
+    opacity: 0.5;
+    background-color: orange;
+    position: absolute;
+    width: 40vw;
+    height: 40vh;
+    border-radius: 50px;
+}
+
+.div-login-email {
+    font-family: Poppins, serif;
+    font-size: large;
+    opacity: 1;
+    text-align: center;
+    color: orange;
+    margin-top: 5vh;
+    padding: 3vh 2vh 3vh 2vh;
+    border-radius: 10px;
+    border: 0 solid;
+    background: white;
+    width: 30vw;
+}
+
+input::placeholder{
+    color: orange;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.div-login-main-text-login {
+    width: 70%;
+    margin-top: 4vh;
+    text-align: left;
+}
+
+.div-login-main-btn {
+    background-color: orange;
+    color: white;
+    border: 2px solid orange;
+    border-radius: 50px;
+    padding: 1vh 11vh 1vh 11vh;
+    margin-top: 5vh;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.div-login-main-sm {
+    width: initial;
+    height: 48vh;
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vh 3vw 0 3vw;
+}
+
+.div-login-main-sm::before {
+    z-index: -1;
+    content: '';
+    filter: blur(1px);
+    opacity: 0.5;
+    background-color: orange;
+    position: absolute;
+    width: 95vw;
+    height: 48vh;
+    border-radius: 50px;
+}
+
+.div-login-main-sm .div-login-email {
+    width: 80vw;
+}
+
+.login-with-images {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.div-login-main-sm .login-with-images {
+    margin-top: 3vh;
+    width: 70%;
+}

@@ -1,0 +1,317 @@
+.settings-main{
+    width: 32vw;
+    height: 67vh;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    margin: 10vh 0 0 33vw;
+}
+
+.settings-main .div-settings-main-avatar {
+  width: 10vw;
+  height: 10vw;
+}
+/*
+.settings-main .settings-avatar {
+    padding: 7% 0 0 7%;
+    border-radius: 50%;
+  }
+
+*/
+.settings-main .settings-header-text {
+  flex-direction: column;
+  height: initial;
+  width: 100%;
+  display: flex;
+  margin-left: 2vw;
+  margin-top: 1vh;
+}
+
+.settings-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.settings-main .ant-input {
+  background-color: transparent !important;
+  border: none !important;
+  width: 80% !important;
+}
+
+.settings-main .avatar {
+  display: block;
+  width: 10vw;
+  height: 10vw;
+  cursor: pointer;
+  position: relative;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 2vh 0 0 2vw;
+}
+
+.settings-main .settings-header-text-name  {
+  margin-top: 3vh;
+  margin-bottom: 1vh;
+  padding: 0 0 !important;
+}
+
+.settings-main .settings-header-text-name .ant-input  {
+  font-size: 1.8em !important;
+  border-radius: 10px;
+}
+
+.settings-main .settings-header-text-others .ant-input {
+  color: white !important;
+  padding: 0 0 !important;
+}
+
+.settings-main .settings-header-text-others div {
+  display: flex;
+}
+
+.settings-main .settings-header-text-others {
+  margin-left: 2vw;
+}
+.settings-main .settings-header-text-others .ant-form-item {
+  margin-bottom: 0.5vh !important;
+  margin-left: 0.8vw !important;
+}
+
+.settings-main .div-settings-main-line {
+  margin-left: 5%;
+  width: 90%;
+  margin-top: 3vh;
+}
+
+.settings-main .ant-form-item {
+  margin-bottom: 0px !important;
+}
+
+.settings-main textarea.ant-input {
+  width: 85% !important;
+  margin-left: 7% !important;
+  margin-top: 2vh !important;
+  height: 40vh !important;
+  background-color: white !important;
+  opacity: 0.7;
+  border-radius: 10px !important;
+
+ }
+ .settings-main .picker-place {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+ }
+ .settings-main .picker-place .ant-input {
+  background-color: white !important;
+  width: 25% !important;
+  border-radius: 5px;
+}
+
+.settings-main .ant-select-selector {
+  border-radius: 10px !important;
+  border: none !important;
+}
+
+.settings-main .picker-place .central-select {
+  margin-left: 2vw !important;
+  margin-right: 2vw !important;
+}
+
+.settings-main .picker-place .ant-select {
+  width: 7vw;
+}
+
+.settings-main .div-submit-settings {
+  background-color: orange;
+  color: white;
+  border: 2px solid orange;
+  border-radius: 50px;
+  width: 17vw;
+  height: 5vh;
+  margin-top: 4vh;
+  font-size: 1.5rem;
+  margin-left: 22%;
+  cursor: pointer;
+}
+
+.avatar .anticon {
+  content: '';
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(#000, 0);
+  transition: 0.2s;
+}
+
+.avatar .anticon svg {
+  fill: #fff;
+  opacity: 0;
+  width: 50%;
+  height: 50%;
+}
+
+.avatar .anticon-spin{
+  opacity: 1 !important;
+  fill: black !important;
+}
+
+.avatar .anticon-spin svg {
+  fill: black;
+  opacity: 1;
+}
+.avatar:hover .anticon{
+  background-color: black;
+  opacity: 0.4;
+}
+.avatar:hover .anticon svg{
+  fill: #fff;
+  opacity: 1;
+}
+
+.avatar:hover .anticon-spin svg{
+  fill: #fff;
+}
+
+.div-settings-main-sm {
+    width: initial;
+    height: 70vh;
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vh 3vw 0 3vw;
+}
+
+
+.div-settings-main-sm::before {
+  z-index: -1;
+  content: '';
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  width: 95vw;
+  height: 70vh;
+  border-radius: 50px;
+}
+
+.div-settings-main-sm .div-settings-main-avatar {
+  width: 30vw;
+  height: 30vw;
+}
+
+
+
+.div-settings-main-sm .settings-header-text {
+    flex-direction: column;
+    height: initial;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em !important;
+
+}
+
+.div-settings-main-sm .avatar {
+  display: block;
+  width: 30vw;
+  height: 30vw;
+  margin-top: 15%;
+  margin-left: 0%;
+  cursor: pointer;
+  position: relative;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+
+.div-settings-main-sm .settings-header-text-name  {
+  margin-top: 3vh;
+  padding: 0 0 !important;
+
+}
+
+.div-settings-main-sm .settings-header-text-name .ant-input  {
+  font-size: 1.3rem !important;
+  background-color: transparent !important;
+  border: none;
+}
+
+.div-settings-main-sm .settings-header-text-others .ant-input {
+  color: white !important;
+  padding: 0 0 !important;
+  background-color: transparent !important;
+  border: none;
+}
+
+.div-settings-main-sm .settings-header-text-others div {
+  display: flex;
+}
+
+.div-settings-main-line {
+  width: 90%;
+  margin-top: 3vh;
+}
+
+.div-settings-main-sm .picker-place{
+  margin-top: 20vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-settings-main-sm .div-submit-settings {
+    background-color: orange;
+    color: white;
+    border: 2px solid orange;
+    border-radius: 50px;
+    padding: 1vh 11vh 1vh 11vh;
+    margin-top: 3vh;
+    font-size: 1.5rem;
+}
+
+.div-settings-main-sm .ant-select {
+border-radius: 10px !important;
+}
+
+.div-settings-main-sm .ant-form-item {
+  margin-bottom: 0 !important;
+}
+
+.div-settings-main-sm textarea.ant-input {
+ width: 80vw !important;
+ background-color: white !important;
+ opacity: 0.7;
+  border-radius: 10px !important;
+}
+
+.div-settings-main-sm .picker-place .ant-input {
+  background-color: white !important;
+  width: 25vw !important;
+  border-radius: 5px;
+}
+
+
+.div-settings-main-sm .ant-select-selector {
+  border-radius: 10px !important;
+  border: none !important;
+}
+
+.div-settings-main-sm .picker-place .central-select {
+  margin-left: 5vw !important;
+  margin-right: 5vw !important;
+}
+
+.div-settings-main-sm .picker-place .ant-select {
+  width: 25vw;
+}
