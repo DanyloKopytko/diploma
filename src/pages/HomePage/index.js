@@ -4,7 +4,7 @@ import './index.css'
 
 const HomePage = ({ history }) => {
   useEffect(() => {
-    const backgroundImage = require('../../assets/images/homepage.jpeg')
+    const backgroundImage = require('../../assets/images/homepage.jpg')
     document.querySelector('body').style.backgroundImage = `url("${backgroundImage}")`
   }, [])
 

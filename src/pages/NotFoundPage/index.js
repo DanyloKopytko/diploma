@@ -3,7 +3,7 @@ import { Result, Button } from 'antd'
 
 const NotFoundPage = ({ history }) => {
   useEffect(() => {
-    const backgroundImage = require('../../assets/images/homepage.jpeg')
+    const backgroundImage = require('../../assets/images/homepage.jpg')
     document.querySelector('body').style.backgroundImage = `url("${backgroundImage}")`
   }, [])
 
