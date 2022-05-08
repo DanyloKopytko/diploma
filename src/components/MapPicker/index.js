@@ -33,7 +33,7 @@ const MapPicker = ({ currentPos, setCurrentPos, customClass }) => {
               }}
             >
               <div>
-                <h2>Your location.</h2>
+                <h2>Point&apos;s location</h2>
               </div>
             </Popup>
           </>

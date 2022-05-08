@@ -26,7 +26,7 @@ const PointPage = ({ history, isViewing }) => {
   const adId = history.location.pathname.split('/')[2]
 
   useEffect(() => {
-    const backgroundImage = require('../../assets/images/settings-background.jpg')
+    const backgroundImage = require('../../assets/images/default-background.jpg')
     document.querySelector('body').style.backgroundImage = `url("${backgroundImage}")`
   }, [])
 

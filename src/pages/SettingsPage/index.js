@@ -57,7 +57,7 @@ const SettingsPage = () => {
   }
 
   useEffect(() => {
-    const backgroundImage = require('../../assets/images/settings-background.jpg')
+    const backgroundImage = require('../../assets/images/default-background.jpg')
     document.querySelector('body').style.backgroundImage = `url("${backgroundImage}")`
 
     async function fetchCountries() {
@@ -156,7 +156,7 @@ const SettingsPage = () => {
           <div className="settings-header-text ">
             <div className="settings-header-text-name">
               <Form.Item name="nameSurname">
-                <Input defaultValue={`${user.name} ${user.surname}`} />
+                <Input />
               </Form.Item>
             </div>
             <div className="settings-header-text-others">

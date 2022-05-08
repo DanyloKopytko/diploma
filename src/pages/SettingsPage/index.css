@@ -1,5 +1,5 @@
 .settings-main{
-    width: 32vw;
+    width: 37vw;
     height: 67vh;
     border-radius: 50px;
     background: rgba(255, 255, 255, 0.2);
@@ -71,6 +71,7 @@
 
 .settings-main .settings-header-text-others div {
   display: flex;
+  width: 100%;
 }
 
 .settings-main .settings-header-text-others {
@@ -123,7 +124,7 @@
 }
 
 .settings-main .picker-place .ant-select {
-  width: 7vw;
+  width: 10vw;
 }
 
 .settings-main .div-submit-settings {
@@ -135,7 +136,7 @@
   height: 5vh;
   margin-top: 4vh;
   font-size: 1.5rem;
-  margin-left: 22%;
+  margin-left: 27%;
   cursor: pointer;
 }
 
@@ -265,7 +266,7 @@
 }
 
 .div-settings-main-sm .picker-place{
-  margin-top: 20vh;
+  margin-top: 13vh;
   display: flex;
   justify-content: space-between;
 }
