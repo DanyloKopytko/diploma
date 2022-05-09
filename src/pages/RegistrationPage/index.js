@@ -8,7 +8,7 @@ const RegistrationPage = ({ history }) => {
   const alert = useAlert()
 
   useEffect(() => {
-    const backgroundImage = require('../../assets/images/registration-background.jpg')
+    const backgroundImage = require('../../assets/images/default-background.jpg')
     document.querySelector('body').style.backgroundImage = `url("${backgroundImage}")`
   }, [])
 

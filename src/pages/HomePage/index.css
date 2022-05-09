@@ -1,8 +1,8 @@
 .div-main-xl {
     display: flex;
     flex-direction: column;
-    margin: 25vh 4vw 0 0;
-    align-items: flex-end;
+    margin: 25vh 0 0 0;
+    align-items: center;
 }
 
 .div-main-sm {
@@ -29,6 +29,7 @@
 
 .div-text span {
     font-size: 2.5rem;
+    background: #00008b;
 }
 
 .div-btns {

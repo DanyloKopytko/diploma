@@ -11,7 +11,7 @@ const LoginPage = ({ signIn, history }) => {
   const alert = useAlert()
 
   useEffect(() => {
-    const backgroundImage = require('../../assets/images/homepage.jpg')
+    const backgroundImage = require('../../assets/images/default-background.jpg')
     document.querySelector('body').style.backgroundImage = `url("${backgroundImage}")`
   }, [])
 

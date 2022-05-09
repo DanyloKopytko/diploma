@@ -13,7 +13,7 @@ const HomePage = ({ history }) => {
   return (
     <div className="div-main-body">
       <div className={window.innerWidth <= 800 ? 'div-main-sm' : 'div-main-xl'}>
-        <div className={`div-text ${window.innerWidth <= 1000 ? 'text-align-center' : 'text-align-left'}`}>
+        <div className="div-text text-align-center">
           <span>Find your perfect pcr-test or vaccination post with PCR-Surfer</span>
           <br />
           <span>Never play with your health, get a health checkout now</span>
