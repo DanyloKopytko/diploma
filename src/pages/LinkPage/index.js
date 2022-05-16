@@ -175,7 +175,7 @@ const LinkPage = ({ history }) => {
                     className="avatar-link-page"
                     alt="img"
                   />
-                  <span style={{ marginRight: '1vw', marginLeft: '1vw' }}>
+                  <span>
                     {user.name} {user.surname}
                   </span>
                 </div>
